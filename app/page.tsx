@@ -54,7 +54,7 @@ export default function Page() {
           </div>
           <div className="max-w-[520px] pb-3">
             <p className="mb-4 text-[11px] font-semibold uppercase tracking-[0.22em] text-accent">Introducing</p>
-            <h1 className="max-w-[600px] text-[clamp(3.8rem,7.5vw,8.2rem)] font-semibold leading-[0.84] tracking-[-0.09em]">{product.name}<span className="text-accent">.</span></h1>
+            <h1 className="max-w-[600px] text-[clamp(3.8rem,7.5vw,8.2rem)] font-semibold leading-[0.84] tracking-[-0.09em]">Welcome to My Store<span className="text-accent">.</span></h1>
             <p className="mt-6 text-2xl font-medium tracking-[-0.04em] text-muted-foreground">{product.tagline}</p>
             <p className="mt-4 max-w-[360px] text-sm leading-6 text-muted-foreground">{product.description}</p>
             <div className="mt-7 flex items-center gap-5">
